@@ -1,0 +1,17 @@
+Import math
+s=input()
+l=[]
+for i in range(len(s)):
+for j in range(i,Len(s)):
+    n=int(s[i:j+1])
+    K=int(math. Sqrt(n))
+    If(k*(k+1)==n):
+       l.append(n)
+l=list(set(l))
+l.Sort()
+Print(l)
+if 0 in l:
+   l.remove(0)
+Print(l)
+
+
